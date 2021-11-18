@@ -1,0 +1,10 @@
+/node_modules : additional programming kept here, no need to focus on it
+/public : Have those views that would be publicly accessible in the application
+/src : React components. Each component in this folder is a script that contains JSX - a syntax extension of Javascript 
+package.json : the installation instructions for npm i, npm start, and other npm functions
+
+Single-page application
+Header/Content/Footer 
+Header: Dev Name, navigation with titles
+
+npx create-react-app [projectname]
