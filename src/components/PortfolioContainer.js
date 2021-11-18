@@ -8,11 +8,11 @@ import Contact from './pages/Contact';
 
 // Modularize PortfolioContainer
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('Landing');
 
   // check the value of `currentPage` - return the corresponding component to render
   const renderPage = () => {
-    if (currentPage === 'Home') {
+    if (currentPage === 'Landing') {
       return <Landing />;
     }
     if (currentPage === 'About') {
