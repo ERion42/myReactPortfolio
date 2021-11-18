@@ -4,10 +4,18 @@ import skyline from "./img/red_skyline.png";
 export default function Landing() {
   return (
     <div>
-      <h1>Home Page</h1>
-      <div style={{ height: '10%' }}>
-        <img id= "skyline" src={skyline} alt="Stock, to be replaced." />   
-      </div>
+      {/* <img id= "skyline" src={skyline} alt="Stock, to be replaced." />    */}
+
+        {/* <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5 landingImage">
+            <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+            <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+            <button class="btn btn-primary btn-lg" type="button">Example button</button>
+        </div>
+        </div> */}
+
+        <img src={skyline} width="100%" alt="Stock" />
+
     </div>
   );
 }
