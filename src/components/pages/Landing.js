@@ -14,7 +14,7 @@ export default function Landing() {
         </div>
         </div> */}
 
-        <img src={skyline} width="100%" alt="Stock" />
+        {/* <img src={skyline} width="100%" alt="Stock" /> */}
 
     </div>
   );
