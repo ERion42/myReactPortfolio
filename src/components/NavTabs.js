@@ -6,7 +6,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <section className="container">
       <div class="row mt-3 mb-3">
-        <div className="col-md-6">
+        <div className="col-md-4">
           <h1>Eric Rion</h1>
         </div>
         <ul className="nav nav-pills col-md">

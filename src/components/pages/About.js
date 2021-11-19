@@ -1,6 +1,7 @@
 import React from 'react';
 import selfPortrait from "./img/lenoreAndMe.png";
-import wifeAndMe from "./img/crissyAndMe.png";
+// import wifeAndMe from "./img/crissyAndMe.png";
+import '../../App.css';
 
 export default function About() {
   return (
