@@ -19,7 +19,7 @@ export default function About() {
 
         <section class="container">
           <div class="row align-items-center">
-            <div class="col">
+            <div class="col" >
                   <p>My name is Eric Rion and I'm a web developer that lives in the suburbs outside of Atlanta, Ga. with my wife and our cat, Lenore.</p>
 
                   <p>I attended Georgia State University and got a BA in Psychology with a minor in Sociology. Unsurprisingly I have not done anything with that degree since I did not want to continue in academia. With a degree that wasn't really opening any doors I moved back to something that was more interesting- coding.</p>
