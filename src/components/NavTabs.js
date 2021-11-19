@@ -6,10 +6,10 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <section className="container">
       <div class="row mt-3 mb-3">
-        <div className="col-md-4">
+        <div className="col-sm">
           <h1>Eric Rion</h1>
         </div>
-        <ul className="nav nav-pills col-md">
+        <ul className="nav nav-pills col-lg offset-md-1">
           <li className="nav-item">
             <a
               href="#landing"
