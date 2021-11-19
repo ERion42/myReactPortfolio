@@ -17,7 +17,7 @@ export default function About() {
           <img id="wifeAndMe" src={wifeAndMe} alt="My wife, Crissy, and I on our latest trip to Stone Mountain." />
         </div> */}
 
-        <section class="container bioWords">
+        <section class="container">
           <div class="row align-items-center">
             <div class="col">
                   <p>My name is Eric Rion and I'm a web developer that lives in the suburbs outside of Atlanta, Ga. with my wife and our cat, Lenore.</p>
@@ -29,7 +29,7 @@ export default function About() {
                   <p>I am currently enrolled in the Full Stack Coding Boot Camp and plan to get a job as a front end junior developer once I complete the course.</p>
             </div>
             <div class="col-lg">
-              <img id= "selfPortrait" src={selfPortrait} alt="This is my cat and me in my office." class="img-fluid h-100" /> 
+              <img id= "selfPortrait" src={selfPortrait} alt="This is my cat and me in my office." class="img-fluid" /> 
             </div>
           </div>
         </section>
