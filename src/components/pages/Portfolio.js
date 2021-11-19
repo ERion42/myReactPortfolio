@@ -5,6 +5,8 @@ import DateNightPicker from "./img/DateNightPicker.png";
 import Scheduler from "./img/Scheduler.png";
 import EventFinder from "./img/EventFinder.png";
 import WorkoutTracker from "./img/WorkoutTracker.png";
+import arrowL from "./img/arrowL.png";
+import arrowR from "./img/arrowR.png";
 
 export default function Portfolio() {
   return (
@@ -39,7 +41,7 @@ export default function Portfolio() {
                     </div>        
                 </div>
                 <div class="carousel-item">
-                    <img id= "Scheduler" src={Scheduler} class="d-block mx-auto" alt="..."></img>
+                    <img id= "Scheduler" src={Scheduler} class="d-block mx-auto mw-100" alt="..."></img>
                     <div class="carousel-caption d-none d-md-block text-light bg-primary rounded-3">
                         <h2>Scheduler</h2>
                         <p>HTML, CSS, JavaScript, Local Storage</p>
@@ -54,12 +56,18 @@ export default function Portfolio() {
                 </div>        
             </div>
             <button class="carousel-control-prev text-dark" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+                <span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
+                <span class="text-dark">
+                    <img id="arrowL" src={arrowL}></img>
+                </span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="false"></span>
+                <span class="carousel-control-next-icon visually-hidden" aria-hidden="false"></span>
                 <span class="visually-hidden">Next</span>
+                <span class="text-dark">
+                    <img id="arrowR" src={arrowR}></img>
+                </span>
             </button>
         </div>
   );
