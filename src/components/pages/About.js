@@ -18,7 +18,7 @@ export default function About() {
           <img id="wifeAndMe" src={wifeAndMe} alt="My wife, Crissy, and I on our latest trip to Stone Mountain." />
         </div> */}
 
-        <section class="container">
+        <section id="aboutSection" class="container">
           <div class="row align-items-top">
             <div class="col" >
                   <p>My name is Eric Rion and I'm a web developer that lives in the suburbs outside of Atlanta, Ga. with my wife and our cat, Lenore.</p>
