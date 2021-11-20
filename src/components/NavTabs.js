@@ -9,7 +9,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <div className="col-sm">
           <h1>Eric Rion</h1>
         </div>
-        <ul className="nav nav-pills col-lg offset-md-1">
+        <ul className="nav nav-pills col-lg offset-md-1 justify-content-end">
           <li className="nav-item">
             <a
               href="#landing"
