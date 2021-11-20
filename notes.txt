@@ -29,3 +29,11 @@ Contact:
 Add Resume view/download
 
 Add footer to template html
+
+As of 11/19/2021:
+Ugh, looks like the formatting isn't as reactive as I'd thought it was.
+Landing Page: 
+    Done
+
+About:
+    Done

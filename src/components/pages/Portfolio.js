@@ -10,8 +10,10 @@ import arrowR from "./img/arrowR.png";
 
 export default function Portfolio() {
   return (
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" >
-            <div class="carousel-indicators mb-3">
+    <section class="container">
+        <div class="row">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -20,41 +22,42 @@ export default function Portfolio() {
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img id= "budgetTracker" src={BudgetTracker} class="d-block mx-auto" alt="..." style={{ height: "50%" }}></img>
+                    <img src={BudgetTracker} class="d-block w-100" alt="..."></img>
                     <div class="carousel-caption d-none d-md-block text-light bg-primary rounded-3">
                         <h2>Budget Tracker</h2>
                         <p>HTML, CSS, JavaScript, MongoDB</p>
-                    </div>                
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img id= "WorkoutTracker" src={WorkoutTracker} class="d-block mx-auto" alt="..."></img>
+                    <img src={WorkoutTracker} class="d-block w-100" alt="..."></img>
                     <div class="carousel-caption d-none d-md-block text-light bg-primary rounded-3">
                         <h2>Workout Tracker</h2>
                         <p>HTML, CSS, Javascript, MongoDB</p>
-                    </div>        
+                    </div>  
                 </div>
                 <div class="carousel-item">
-                    <img id= "DateNightPicker" src={DateNightPicker} class="d-block mx-auto" alt="..."></img>
+                    <img src={DateNightPicker} class="d-block w-100" alt="..."></img>
                     <div class="carousel-caption d-none d-md-block text-light bg-primary rounded-3">
                         <h2>Project: Date Night</h2>
                         <p>HTML, CSS, JavaScript, Bootstrap, Server-Side APIs</p>
-                    </div>        
+                    </div>   
                 </div>
                 <div class="carousel-item">
-                    <img id= "Scheduler" src={Scheduler} class="d-block mx-auto mw-100" alt="..."></img>
+                    <img src={Scheduler} class="d-block w-100" alt="..."></img>
                     <div class="carousel-caption d-none d-md-block text-light bg-primary rounded-3">
                         <h2>Scheduler</h2>
                         <p>HTML, CSS, JavaScript, Local Storage</p>
-                    </div>        
-                </div>            
+                    </div>   
+                </div>
                 <div class="carousel-item">
-                    <img id= "EventFinder" src={EventFinder} class="d-block mx-auto" alt="..."></img>
+                    <img src={EventFinder} class="d-block w-100" alt="..."></img>
                     <div class="carousel-caption d-none d-md-block text-light bg-primary rounded-3">
-                        <h2>Event Finder</h2>
+                        <h2>Project: Event Finder</h2>
                         <p>HTML, CSS, JavaScript, APIs</p>
-                    </div>        
-                </div>        
+                    </div>   
+                </div>
             </div>
+            {/* Arrow Controls */}
             <button class="carousel-control-prev text-dark" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -70,5 +73,7 @@ export default function Portfolio() {
                 </span>
             </button>
         </div>
+        </div>
+    </section>
   );
 }
