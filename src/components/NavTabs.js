@@ -55,7 +55,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             </a>
           </li>
           <li classname="nav-item">
-            <a href="#resume" onclick={() => handlePageChange('Resume')}
+            <a href="https://github.com/ERion42/portfolioRedesign/raw/main/img/Rion%20Eric%202021%20Customer%20Service%20Resume.pdf" target="_blank" onclick={() => handlePageChange('Resume')}
             //
             className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
             >
