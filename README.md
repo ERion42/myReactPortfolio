@@ -1,5 +1,6 @@
 # My Portfolio, React Redux
 
+![ScreenShot](https://raw.githubusercontent.com/ERion42/myReactPortfolio/main/screenShot.png)
 
 ## Description
 
@@ -21,7 +22,10 @@ It's my portfolio, but made with React so it's a slightly different format!
 
 ## Installation
 
-Nothing to install
+Nothing to install. If you end up cloning this repo you'll just need to run the following command to install the necessary files:
+```
+npm i
+```
 
 
 
