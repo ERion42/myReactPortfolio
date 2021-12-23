@@ -52,5 +52,5 @@ No tests to run
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at ericrion3000@gmail.com. You can find more of my work at [ERion42](https://github.com/ERion42/).
+If you have any questions about the repo, open an issue or contact me directly at erion3k@gmail.com. You can find more of my work at [ERion42](https://github.com/ERion42/).
 
