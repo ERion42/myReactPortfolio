@@ -5,7 +5,7 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <section className="container">
-      <div class="row mt-3 mb-3">
+      <div className="row mt-3 mb-3">
         <div className="col-sm">
           <h1>Eric Rion</h1>
         </div>

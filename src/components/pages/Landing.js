@@ -12,7 +12,7 @@ export default function Landing() {
 
       {/* Need to standardize the height of the text boxes */}
       <Container>
-        <Row>
+        <Row className='mb-5'> 
           <Col md="4">
             <h2>Communication</h2>
             <p>For the past decade I've been both working with and leading teams of capable individuals in jobs ranging from retail to the banking industry to technical and customer support. I can either lead or follow in order to create the best team synergy possible.</p>

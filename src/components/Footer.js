@@ -1,10 +1,11 @@
 import React from 'react';
 // import { Navbar, Container } from 'react-bootstrap';
+import '../App.css';
 
 const Footer = () => {
     return (
 
-        <nav className="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark mt-5">
+        <nav className="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark mt-5" id="myFooter">
             <div className="container-fluid">
                 <a className="navbar-brand" href="/">
                    
