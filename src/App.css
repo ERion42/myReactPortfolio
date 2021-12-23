@@ -1,5 +1,10 @@
-/* blank for now */
+/* Needs media queries that will shrink down text */
+
 p {
     font-size: 1.25rem;
 }
 
+.TextBlock {
+    height: 100%;
+    vertical-align: middle;
+}
