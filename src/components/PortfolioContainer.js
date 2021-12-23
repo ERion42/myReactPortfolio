@@ -5,6 +5,7 @@ import Landing from './pages/Landing';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import Footer from './Footer';
 
 // Modularize PortfolioContainer
 export default function PortfolioContainer() {
@@ -32,6 +33,7 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* calling renderPage method which will return a component  */}
       {renderPage()}
+      <Footer></Footer>
     </div>
   );
 }
