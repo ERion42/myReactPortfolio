@@ -25,7 +25,6 @@ export default function Contact() {
                 <li>See all my projects</li>
                 <li>Give direct feedback</li>
               </ul>
-              {/* <button type="button" className="w-100 btn btn-lg btn-outline-primary">Sign up for free</button> */}
             </div>
           </div>
         </Col>
@@ -42,7 +41,6 @@ export default function Contact() {
                 <li>Follow me professionally</li>
                 <li>Message me for quick contact</li>
               </ul>
-              {/* <button type="button" className="w-100 btn btn-lg btn-primary">Get started</button> */}
             </div>
           </div>
         </Col>
@@ -76,7 +74,6 @@ export default function Contact() {
                 <li>Contact me directly</li>
                 <li>If you get my voicemail just leave a message</li>
               </ul>
-              {/* <button type="button" className="w-100 btn btn-lg btn-primary">Contact us</button> */}
             </div>
           </div>
         </Col>
