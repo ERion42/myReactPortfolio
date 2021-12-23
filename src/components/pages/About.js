@@ -6,7 +6,7 @@ import '../../App.css';
 export default function About() {
   return (
 
-    <Container fluid="lg">
+    <Container id="aboutSection" fluid="lg">
       <Row className='p-5'>
         <Col lg="8">
           <p>My name is Eric Rion and I'm a web developer that lives in the suburbs outside of Atlanta, Ga. with my wife and our cat, Lenore.</p>

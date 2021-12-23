@@ -8,3 +8,19 @@ p {
     height: 100%;
     vertical-align: middle;
 }
+
+#portfolioContainer {
+    border-color: black;
+    border-radius: 1px;
+    border-style: solid;
+    padding: 15px;
+    box-shadow: black;
+    margin-top: 10%;
+}
+#aboutSection {
+    margin-top: 10%;
+}
+
+#contactSection {
+    margin-top: 10%;
+}
