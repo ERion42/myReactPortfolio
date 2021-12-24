@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2b9b1cc5.chunk.css",
+    "main.js": "/static/js/main.363ea464.chunk.js",
+    "main.js.map": "/static/js/main.363ea464.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.83c853ac.js",
+    "runtime-main.js.map": "/static/js/runtime-main.83c853ac.js.map",
+    "static/css/2.383c0125.chunk.css": "/static/css/2.383c0125.chunk.css",
+    "static/js/2.dabd0404.chunk.js": "/static/js/2.dabd0404.chunk.js",
+    "static/js/2.dabd0404.chunk.js.map": "/static/js/2.dabd0404.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.2b9b1cc5.chunk.css.map": "/static/css/main.2b9b1cc5.chunk.css.map",
+    "static/js/2.dabd0404.chunk.js.LICENSE.txt": "/static/js/2.dabd0404.chunk.js.LICENSE.txt",
+    "static/media/Budget Tracker.9e49b643.png": "/static/media/Budget Tracker.9e49b643.png",
+    "static/media/DateNightPicker.9a91ef65.png": "/static/media/DateNightPicker.9a91ef65.png",
+    "static/media/EventFinder.3e91e2e4.png": "/static/media/EventFinder.3e91e2e4.png",
+    "static/media/Scheduler.0370613b.png": "/static/media/Scheduler.0370613b.png",
+    "static/media/WorkoutTracker.7fc1dd4d.png": "/static/media/WorkoutTracker.7fc1dd4d.png",
+    "static/media/lenoreAndMe.b6a26dbc.png": "/static/media/lenoreAndMe.b6a26dbc.png",
+    "static/media/skyline.4994090a.png": "/static/media/skyline.4994090a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83c853ac.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.dabd0404.chunk.js",
+    "static/css/main.2b9b1cc5.chunk.css",
+    "static/js/main.363ea464.chunk.js"
+  ]
+}
